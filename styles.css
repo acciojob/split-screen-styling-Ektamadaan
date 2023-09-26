@@ -1,1 +1,34 @@
-/*  your css code here. If applicable */
+.hero{
+	height : 100vh ;
+	display : grid ;
+	grid-template-areas :
+	"n h h h h h"
+	"n a a a a as"
+	"n a a a a as"
+	"n a a a a as"
+	"n f f f f f"
+}
+.nav{
+	grid-area : n ;
+	background-color : #D7E8D4 ;
+	padding : 1em ;
+}
+.header{
+	grid-area : h ;
+	background-color : yellowgreen;
+	padding : 1em ;
+}
+.article{
+	grid-area : a ;
+	padding : 1em ;
+}
+.aside{
+	grid-area : as ;
+	padding : 1em ;
+	background-color : aliceblue ;
+}
+.footer{
+	grid-area : f ;
+	background-color : yellowgreen;
+	padding : 1em ;
+}
